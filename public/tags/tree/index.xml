@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tree on weter</title>
+    <link>http://localhost:1313/tags/tree/</link>
+    <description>Recent content in Tree on weter</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sat, 16 Aug 2025 18:19:06 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hello i am artem</title>
+      <link>http://localhost:1313/posts/my/</link>
+      <pubDate>Sat, 16 Aug 2025 18:19:06 +0500</pubDate>
+      <guid>http://localhost:1313/posts/my/</guid>
+      <description>&lt;h1 id=&#34;hello&#34;&gt;hello&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;hello&lt;/li&gt;
+&lt;li&gt;hello&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

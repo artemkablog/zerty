@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on weter</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on weter</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sat, 16 Aug 2025 22:01:33 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>http://localhost:1313/tags/first/</link>
+      <pubDate>Sat, 16 Aug 2025 22:01:33 +0500</pubDate>
+      <guid>http://localhost:1313/tags/first/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>One</title>
+      <link>http://localhost:1313/tags/one/</link>
+      <pubDate>Sat, 16 Aug 2025 22:01:33 +0500</pubDate>
+      <guid>http://localhost:1313/tags/one/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two</title>
+      <link>http://localhost:1313/tags/two/</link>
+      <pubDate>Sat, 16 Aug 2025 22:01:33 +0500</pubDate>
+      <guid>http://localhost:1313/tags/two/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tree</title>
+      <link>http://localhost:1313/tags/tree/</link>
+      <pubDate>Sat, 16 Aug 2025 18:19:06 +0500</pubDate>
+      <guid>http://localhost:1313/tags/tree/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+baseURL: https://example.org/
+languageCode: ru-RU
+title: weter
+theme: PaperMod
+
+enableRobotsTXT: true
+enableInlineShortcodes: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+
+taxonomies:
+  tag: tags
+
+params:
+  # defaultTheme: light
+  # defaultTheme: dark
+  defaultTheme: auto # to switch between dark or light according to browser theme
+
+  disableThemeToggle: false
+
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "x", "reddit", "facebook", "whatsapp", "telegram"]
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com"
+    - name: "mastodon"
+      url: "https://mastodon.social"
+    - name: "youtube"
+      url: "https://youtube.com"
+    - name: "orgmode"
+      url: "https://orgmode.org/"
+    - name: "email"
+      url: "about"
+    - name: ""
+      url: ""
+    
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 3
+    - name: Search
+      url: search/
+      weight: 1
+    - name: Tags
+      url: tags/
+      weight: 2
+    - name: about
+      url: about/
+      weight: 4
+
